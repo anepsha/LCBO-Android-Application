@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    tools:context="com.prog3210.ngalatsis.lcboapp.FragmentMenuSelect"
+    >
+    <Button style="@style/Button"
+        android:id="@+id/btnCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        />
+    <Button style="@style/Button"
+        android:id="@+id/btnChangeStore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Store"
+        android:background="#e0b1c4"
+        />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LCBO App</string>
+    <string name="items_title">Stores</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="product_details">6 x 355 mL bottle\nAlcohol/Vol 7.1%\nMade in: Ontario, Canada
+        \nBy: Amsterdam Brewing Company\nStyle: Full &amp; Hoppy</string>
+    <string name="product_description">
+        Hazy medium copper; aromas of pink grapefruit, orange peel, pineapple, honey and resinous hops; on the palate it is medium bodied and well carbonated, with flavours that execute what the nose promised and a bitter, hoppy finish.
+    </string>
+</resources>

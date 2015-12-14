@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dce0b1"
+    tools:context="com.prog3210.ngalatsis.lcboapp.FragmentChecklist">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        >
+        <Button
+            android:id="@+id/btnClearChecklist"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Clear Checklist"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listChecklistItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dce0b1"
+        android:paddingTop="6dp"
+        >
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity"
+    >
+    <EditText
+        android:id="@+id/tvResult"
+        android:hint="Enter city or postal code"
+        android:gravity="left"
+        android:singleLine="true"
+        android:maxLength="12"
+        android:ellipsize="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        >
+        <Button style="@style/Button"
+            android:id="@+id/btnGo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            />
+        <Button style="@style/Button"
+            android:id="@+id/btnLater"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Later"
+            android:textAlignment="center"
+        />
+    </LinearLayout>
+</LinearLayout>
